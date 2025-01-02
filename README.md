@@ -25,9 +25,9 @@ I asked Claude.ai to help me with nmap visualization, but instead of helping me 
 - 🎨 **Beautiful Visualizations** - Transform raw Nmap data into interactive eye candy
 - ⚡ **Real-time Analysis** - Watch your network mapping come alive
 - 🔍 **Smart Classification** - Automatic system and service detection
-- 🛡️ **Risk Assessment** - Visual risk scoring that just hits different
+- 🛡️ **Risk Assessment** - Visual risk scoring
 - 🌓 **Gruvbox Dark Theme** - Easy on the eyes, heavy on style
-- 🖥️ **Modern UI/UX** - Built with React + Tailwind, smooth like butter
+- 🖥️ **Modern UI/UX** - Built with React + Tailwind
 
 ## 🚀 Quick Start
 
@@ -47,25 +47,25 @@ Then open [http://localhost:5173](http://localhost:5173) and watch the magic hap
 nmap -sC -sV target.com > scan.txt
 ```
 
-2. Drop that scan file into IDY
-3. Watch your data transform into pure visual goodness! 🎨
+2. Drop that file into IDY
+3. Watch your data transform into eye candy! 🎨
 
 ## 🛠️ Tech Stack
 
-- ⚛️ **React** - Because we're modern like that
-- 🎨 **Tailwind CSS** - Styling with zero struggle
-- 🎯 **Vite** - Lightning fast builds
-- 📊 **Recharts** - Making data look CLEAN
-- **Lucide Icons** - Icons that just hit different
-- **Shadcn/ui** - Components with that extra sauce
+- ⚛️ **React**
+- 🎨 **Tailwind CSS**
+- 🎯 **Vite**
+- 📊 **Recharts**
+- **Lucide Icons**
+- **Shadcn/ui**
 
 ## 🤝 Contributing
 
-Got ideas to make IDY even more fire? We're here for it! 
+Got ideas to make IDY better? Send a PR! 
 
 1. Fork it (`https://github.com/pindjouf/idy/fork`)
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m '🔥 Add some AmazingFeature'`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
