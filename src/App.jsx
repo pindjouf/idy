@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Helmet } from 'react-helmet';
 import NetworkViz from './components/NetworkViz.jsx';
 import { GithubIcon, ExternalLinkIcon, ShieldIcon } from 'lucide-react';
+import { Analytics } from "@vercel/analytics/react"
 
 const SEO_CONFIG = {
   title: 'IDY - Transform Nmap Data Into Pure Eye Candy 🍬',
@@ -275,6 +276,7 @@ function App() {
           </footer>
         </div>
       </div>
+      <Analytics />
     </>
   );
 }
