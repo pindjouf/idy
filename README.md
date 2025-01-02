@@ -56,8 +56,8 @@ nmap -sC -sV target.com > scan.txt
 - 🎨 **Tailwind CSS** - Styling with zero struggle
 - 🎯 **Vite** - Lightning fast builds
 - 📊 **Recharts** - Making data look CLEAN
-- 💅 **Lucide Icons** - Icons that just hit different
-- 🌈 **Shadcn/ui** - Components with that extra sauce
+- **Lucide Icons** - Icons that just hit different
+- **Shadcn/ui** - Components with that extra sauce
 
 ## 🤝 Contributing
 
