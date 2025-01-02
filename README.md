@@ -4,7 +4,7 @@
 
 ![IDY Banner](./public/preview.png)
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge&color=rgb(131,165,152))](LICENSE)
+[![License](https://img.shields.io/badge/license-WTFPL-blue.svg?style=for-the-badge&color=rgb(131,165,152))](LICENSE)
 [![Stars](https://img.shields.io/github/stars/pindjouf/idy?style=for-the-badge&color=rgb(250,189,47))](https://github.com/pindjouf/idy/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/pindjouf/idy?style=for-the-badge&color=rgb(211,134,155))](https://github.com/pindjouf/idy/commits/main)
 
