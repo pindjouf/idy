@@ -30,6 +30,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 ::-webkit-scrollbar {
   @apply w-2;
 }

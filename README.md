@@ -19,6 +19,7 @@
 ## ✨ Why IDY?
 
 I asked Claude.ai to help me with nmap visualization, but instead of helping me with guidance it made a react app. So I obliged...
+Transform raw Nmap data into stunning visuals to facilitate manual review and generate **beautifully downloadable reports.**
 
 ### 🎯 Key Features
 
@@ -29,7 +30,30 @@ I asked Claude.ai to help me with nmap visualization, but instead of helping me 
 - 🌓 **Gruvbox Dark Theme** - Easy on the eyes, heavy on style
 - 🖥️ **Modern UI/UX** - Built with React + Tailwind
 
-## 🚀 Quick Start
+## 🐳 Quick Start with Docker
+
+Don't want to mess with installations, or need to keep your reports off the internet? Use **Docker** to pull and run IDY instantly.  
+
+### 🔧 Prerequisites
+
+- [Docker](https://www.docker.com/) installed on your machine.
+
+### Steps to Run  
+
+1. **Pull the Docker Image**  
+   ```bash
+   docker pull pindjouf/idy:latest
+   ```
+
+2. **Run the Container**  
+   ```bash
+   docker run -d -p 5173:5173 --name idy pindjouf/idy:latest
+   ```
+
+3. **Access IDY**  
+   Open [http://localhost:5173](http://localhost:5173) in your browser and enjoy!  
+
+## Quick Start with npm
 
 ```bash
 git clone https://github.com/pindjouf/idy.git
