@@ -244,13 +244,6 @@ export const generateReport = (hosts, getSystemType, getRiskLevel) => {
                         <td>${port.product} ${port.version}</td>
                         <td>${port.extraInfo}</td>
                       </tr>
-                      ${port.scripts.length > 0 ? `
-                        <tr>
-                          <td colspan="5">
-                            <div class="script-output">${port.scripts.join('\n')}</div>
-                          </td>
-                        </tr>
-                      ` : ''}
                     `).join('')}
                   </tbody>
                 </table>
