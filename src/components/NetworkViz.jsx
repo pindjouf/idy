@@ -47,15 +47,22 @@ const PortDetailPopup = ({ port, onClose }) => {
 
         {/* Service details with glass effect */}
         <div className="space-y-4 bg-gruvbox-bg-hard/30 rounded-lg p-4 border border-gruvbox-fg/5">
-          {/* Version Info */}
-          {port.product && (
+          {(!port.product && !port.version && !port.extraInfo && 
+            !(port.service === 'ssh' && port.hostKeys?.length > 0) && 
+            !port.ssl && !(port.scripts && port.scripts.length > 0)) ? (
+            <div className="text-center py-4">
+              <span className="text-gruvbox-gray italic">No additional information available for this port</span>
+            </div>
+          ) : (
             <div className="space-y-1">
               <span className="text-gruvbox-blue font-medium">Service Details:</span>
               <div className="pl-4">
-                <div>
-                  <span className="text-gruvbox-gray">Product:</span>
-                  <span className="ml-2 text-gruvbox-purple">{port.product}</span>
-                </div>
+                {port.product && (
+                  <div>
+                    <span className="text-gruvbox-gray">Product:</span>
+                    <span className="ml-2 text-gruvbox-purple">{port.product}</span>
+                  </div>
+                )}
                 {port.version && (
                   <div>
                     <span className="text-gruvbox-gray">Version:</span>
@@ -362,8 +369,6 @@ const NetworkViz = () => {
   return (
     <div className="space-y-6 p-4 relative">
       <Card className="sticky top-4 z-50 backdrop-blur-xl bg-gruvbox-bg-soft/30 border-gruvbox-fg/10 shadow-2xl">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-gruvbox-blue/5 rounded-full blur-3xl"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gruvbox-aqua/5 rounded-full blur-3xl"></div>
         
         <CardHeader className="relative z-10">
           <CardTitle className="flex items-center justify-between text-gruvbox-fg">
