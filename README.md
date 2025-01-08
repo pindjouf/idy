@@ -47,7 +47,7 @@ Don't want to mess with installations, or need to keep your reports off the inte
 
 2. **Run the Container**  
    ```bash
-   docker run -d -p 5173:5173 --name idy pindjouf/idy:latest
+   docker run -d -p 5173:80 --name idy pindjouf/idy:latest
    ```
 
 3. **Access IDY**  
